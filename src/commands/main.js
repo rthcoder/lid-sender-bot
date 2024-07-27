@@ -1,8 +1,8 @@
 import { Telegraf } from "telegraf";
+import token from "../config/config.js";
 import admins from "../defaults/index.js";
-import types from "../src/defaults/index.js";
 
-const bot = new Telegraf(types.token);
+const bot = new Telegraf(token);
 
 const BOT = async (req, res, next) => {
     try {
