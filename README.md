@@ -48,7 +48,7 @@ Lid sender to telegram bot - landing pagelarda kiritilganmalumotlarni telegram b
     "client_name": "John Doe",
     "phone_number": "998 9x xxx xx xx"
 }
-
+```
 - **Response**:
 ```json
 {
