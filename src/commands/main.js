@@ -28,14 +28,14 @@ const BOT = async (req, res, next) => {
                 });
         };
 
-        const regexPhoneNumber = /^998[389][012345789][0-9]{7}$/;
+        // const regexPhoneNumber = /^998[389][012345789][0-9]{7}$/;
 
-        if (!(regexPhoneNumber.test(phone_number))) {
-            return res.status(403).json({
-                message: "invalid phone number",
-                data: false
-            });
-        };
+        // if (!(regexPhoneNumber.test(phone_number))) {
+        //     return res.status(403).json({
+        //         message: "invalid phone number",
+        //         data: false
+        //     });
+        // };
 
         let ids = admins.tg_id;
 
@@ -52,7 +52,10 @@ const BOT = async (req, res, next) => {
             .json({
                 status: 200,
                 message: 'successully sended via telegram bot',
-                data: false
+                data: {
+                    client_name,
+                    phone_number: `+${phone_number}`
+                }
             });
 
     } catch (error) {
