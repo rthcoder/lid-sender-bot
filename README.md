@@ -57,3 +57,6 @@ Lid sender to telegram bot - landing pagelarda kiritilganmalumotlarni telegram b
     "message": "successully sended via telegram bot",
     "data": false
 }
+```
+- **POV**: `ushbu so'rov amalga oshirilgan keyin **src/defaults/index.js**  faylida joylashgan tg_id massivida berilgan barcha foydalanuvchilarga lid xabari  jo'natiladi!`
+
