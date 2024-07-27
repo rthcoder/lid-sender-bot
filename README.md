@@ -2,7 +2,7 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Node Telegram Bot API]([https://example.com/image.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Falpaca.markets%2Flearn%2Ftelegram-bot-nodejs%2F&psig=AOvVaw2B1JMlQUJMEmc2f2q6Z3HB&ust=1722168454059000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODsz9KXx4cDFQAAAAAdAAAAABAE))
+![Node Telegram Bot API]((https://www.google.com/url?sa=i&url=https%3A%2F%2Falpaca.markets%2Flearn%2Ftelegram-bot-nodejs%2F&psig=AOvVaw2B1JMlQUJMEmc2f2q6Z3HB&ust=1722168454059000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODsz9KXx4cDFQAAAAAdAAAAABAE)
 
 ## Description
 Lid sender to telegram bot - landing pagelarda kiritilganmalumotlarni telegram botga yuborish.
