@@ -24,7 +24,7 @@ Lid sender to telegram bot - landing pagelarda kiritilganmalumotlarni telegram b
 
     ```plaintext
     PORT=
-    MONGO_DB_URL=
+    BOT_TOKEN=
     ```
 4. **src/defaults/index.js**  faylida tg_id nomli arrayga lid jo'natilishi kerak bo'lgan foydalanuvchilarning telegram ID qo'yilishi kerak bo'ladi.
 
