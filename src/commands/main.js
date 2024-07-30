@@ -40,7 +40,7 @@ const BOT = async (req, res, next) => {
         let ids = admins.tg_id;
 
         const msgtext = `
-            📥New Lid\n👨‍💻From: ${client_name}\n📞Phone Number: +${phone_number}
+            📥New client\n👨‍💻From: ${client_name}\n📞Phone Number: +${phone_number}
         `;
 
         for (let i of ids) {
