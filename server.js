@@ -10,7 +10,7 @@ app.use(cors({
     origin: "*"
 }));
 
-import botRouter from "./routes/route.js";
+import botRouter from "./src/routes/route.js";
 
 app.use(botRouter);
 
