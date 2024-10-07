@@ -1,7 +1,7 @@
 const admins = {
-    channel_id : [
+    channel_id: [
         -1002336342829
     ]
 };
 
-export default admins;
+module.exports = admins;

@@ -1,6 +1,6 @@
-import { Telegraf } from "telegraf";
-import token from "../config/config.js";
-import admins from "../defaults/index.js";
+const { Telegraf } = require("telegraf");
+const token = require("../config/config.js");
+const admins = require("../defaults/index.js");
 
 const bot = new Telegraf(token);
 
@@ -52,6 +52,6 @@ const BOT = async (req, res, next) => {
   }
 };
 
-export default {
+module.exports = {
   BOT,
 };

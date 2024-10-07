@@ -1,8 +1,8 @@
-import { Router } from "express";
-import bot from "../commands/main.js";
+const { Router } = require("express");
+const bot = require("../commands/main.js");
 
 const router = Router();
 
 router.post('/api/bot', bot.BOT);
 
-export default router
+module.exports = router;

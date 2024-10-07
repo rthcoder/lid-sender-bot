@@ -1,6 +1,6 @@
-import * as dotenv from 'dotenv';
+const dotenv = require('dotenv');
 dotenv.config();
 
 const token = process.env.BOT_TOKEN;
 
-export default token;
+module.exports = token;

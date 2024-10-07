@@ -1,5 +1,6 @@
-import cors from "cors";
-import express from "express";
+const cors = require("cors");
+const express = require("express");
+const botRouter = require("./src/routes/route.js");
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -9,8 +10,6 @@ app.use(express.json());
 app.use(cors({
     origin: "*"
 }));
-
-import botRouter from "./src/routes/route.js";
 
 app.use(botRouter);
 
